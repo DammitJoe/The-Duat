@@ -1,0 +1,15 @@
+
+public class Student extends Users {
+	public boolean verified = true;
+	public String major;
+	public String fn = firstName;
+	public String ln = lastName;
+	public Student(fn, ln) {
+		
+	}
+	
+	@Override
+	public void sayHello() {
+		System.out.println("Hi my major is " + major + ". My name is " + firstName + " " + lastName);
+	}
+}

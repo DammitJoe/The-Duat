@@ -1,0 +1,13 @@
+
+public class Student<fn> extends Users implements Talk {
+	public boolean verified = true;
+	public String major;
+	
+	
+	
+	public Student(String fn, String ln) {
+		(fn, ln);
+		
+	}
+
+}

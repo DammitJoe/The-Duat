@@ -1,0 +1,23 @@
+import java.util.List;
+
+public abstract class Users {
+	private String firstName;
+	private String lastName;
+	
+	public Users(String fn, String ln) {
+		firstName = fn;
+		lastName = ln;
+	}
+	
+	
+	public boolean verified = false;
+	
+	public void sayHello() {
+		System.out.println("Users version");
+	}
+	
+	
+	}
+
+
+	

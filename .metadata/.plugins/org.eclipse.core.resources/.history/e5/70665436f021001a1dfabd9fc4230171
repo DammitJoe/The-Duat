@@ -1,0 +1,26 @@
+
+public class firststep {
+	
+	public static void main(String[] args) {
+	
+		User user = new User();
+		user.firstName = "Joe";
+		user.lastName = "Speltz";
+		
+		System.out.println(user.getFullName());
+		
+		
+	
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

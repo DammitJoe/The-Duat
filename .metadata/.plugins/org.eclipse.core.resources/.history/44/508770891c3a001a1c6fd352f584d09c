@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Student s = new Student();
+		s.major = "Design";
+		s.firstName = "Smartie";
+		s.lastName = "Pants";
+		//s.sayHello();
+	
+		Teacher t = new Teacher();
+		t.firstName = "Anna";
+		t.lastName = "Speltz";
+		
+		List<Users> users = new ArrayList<Users>();
+		users.add(s);
+		users.add(t);
+		
+		for(int i = 0; i < users.size(); i++);
+	}
+}

@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class firststep {
+	
+	public static void main(String[] args) {
+	
+		String password = "Taco";
+		
+		Scanner scanner = new Scanner(System.in);
+				
+		String guess = scanner.nextLine();
+		
+		System.out.println("Guess the password");
+		
+		while(guess != password) {
+			System.out.println("try again"); 
+			return
+		}
+		
+		if(guess.contentEquals(password)) {
+			System.out.println("Congrats! You're in!");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+		
+		
+		
+		
+		
+		
+		
+		
+	

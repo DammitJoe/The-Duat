@@ -1,0 +1,10 @@
+
+public class Student<fn> extends Users implements Talk {
+	public boolean verified = true;
+	public String major;
+	
+	
+	
+	
+
+}

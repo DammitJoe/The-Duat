@@ -1,0 +1,8 @@
+
+public class Teacher extends Users {
+
+	
+	public void sayHello() {
+		System.out.println("Good morning class");
+	}
+}

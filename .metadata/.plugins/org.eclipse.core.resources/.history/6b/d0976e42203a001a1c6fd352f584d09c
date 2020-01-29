@@ -1,0 +1,16 @@
+import java.util.List;
+
+public abstract class Users {
+	public String firstName;
+	public String lastName;
+	public boolean verified = false;
+	
+	public void sayHello() {
+		System.out.println("Users version");
+	}
+	
+	
+	}
+
+
+	

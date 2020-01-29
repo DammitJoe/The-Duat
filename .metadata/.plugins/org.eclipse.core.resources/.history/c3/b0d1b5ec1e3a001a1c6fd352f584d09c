@@ -1,0 +1,17 @@
+
+public class Student<fn> extends Users {
+	public boolean verified = true;
+	public String major;
+	public String fn = firstName;
+	public String ln = lastName;
+	
+	
+	public Student(String fn, String ln) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void sayHello() {
+		System.out.println("Hi my major is " + major + ". My name is " + firstName + " " + lastName);
+	}
+}

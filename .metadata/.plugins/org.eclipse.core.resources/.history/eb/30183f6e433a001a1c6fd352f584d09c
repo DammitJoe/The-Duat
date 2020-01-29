@@ -1,0 +1,27 @@
+import java.util.List;
+
+public class Users implements Talk {
+	private String firstName;
+	private String lastName;
+	
+	public Users(String fn, String ln) {
+		firstName = fn;
+		lastName = ln;
+	}
+	
+	
+	public boolean verified = false;
+
+	@Override
+	public void sayHello() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+	}
+
+
+	

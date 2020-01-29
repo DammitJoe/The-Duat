@@ -1,0 +1,15 @@
+import java.util.List;
+
+public abstract class Users {
+	public String firstName;
+	public String lastName;
+	public String fullName = firstName + " " + lastName;
+	public boolean verified = false;
+	
+	public abstract void sayHello();
+	
+	
+	}
+
+
+	

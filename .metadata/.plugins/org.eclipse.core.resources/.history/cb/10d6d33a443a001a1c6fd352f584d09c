@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Student s = new Student("Smartie", "Pants");
+		
+		
+			s.sayHello();
+		 
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Student extends Users {
+	public boolean verified = true;
+	public String major;
+	
+	
+	@Override
+	public void sayHello() {
+		System.out.println("Hi my major is " + major);
+	}
+}

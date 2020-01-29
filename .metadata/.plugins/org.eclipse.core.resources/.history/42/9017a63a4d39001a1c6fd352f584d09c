@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+			Users me = new Users();
+			me.setFirstName("Caleb");
+			me.setLastName("Curry");
+			
+		
+			Users you = new Users();
+			you.setFirstName("Charles");
+			
+			List <Users> users = new ArrayList<Users>();
+			users.add(me);
+			users.add(you);
+			
+			//Users.printUsers(users);
+			
+			System.out.println(me.deeptoString());
+	}
+
+		
+}

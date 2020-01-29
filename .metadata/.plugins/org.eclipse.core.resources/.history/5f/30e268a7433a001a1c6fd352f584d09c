@@ -1,0 +1,9 @@
+
+public class Teacher extends Users implements Talk {
+
+	public Teacher(String fn, String ln) {
+		super(fn, ln);
+		
+	}
+
+}

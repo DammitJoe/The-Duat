@@ -1,0 +1,16 @@
+import java.util.List;
+
+public class Users implements Talk {
+	private String firstName;
+	private String lastName;
+	public boolean verified = false;
+
+	public final void sayHello() {
+		
+	}
+	
+
+}
+
+
+	

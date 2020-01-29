@@ -1,0 +1,66 @@
+import java.util.List;
+
+public class Users {
+	
+	private String firstName;
+	private String lastName;
+	
+	public String output() {
+		return "Hi my name is " + getFullName()+ ".";
+		}
+	public String output(boolean nice) {
+		if(nice) {
+			return "You're awesome!" + getFullName();
+		}
+		
+		return "You suck. - " + getFullName() + ".";
+	}
+	
+	
+	public String getFirstName() {
+		return firstName;
+		}
+	public void setFirstName(String fn) {
+		firstName = fn;
+	}
+	public void setLastName(String ln) {
+		lastName = ln;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	
+	public String getFullName() {
+		return firstName + " " + lastName;
+	}
+	
+	public static void printUsers(List<Users> users) {
+		for(Users u : users) {
+			System.out.println(u.getFullName());
+	
+	
+	
+		}
+	}
+	public static int searchList (List<Users> users, String fn, String ln) {
+		return searchList(users, fn + " " + ln);
+	}
+	public static int searchList(List<Users> users, String fullName) {
+		for(int i = 0; i < users.size(); i++) {
+	
+		if(users.get(i).getFullName().contentEquals(fullName)) {
+			return i;
+		}
+	}
+		return -1;
+	}
+	@Override
+	public String toString() {
+		return "Users " + getFullName();
+	}
+	
+	
+	
+}
+
+	
