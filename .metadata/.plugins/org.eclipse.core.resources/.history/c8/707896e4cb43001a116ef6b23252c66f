@@ -16,7 +16,7 @@ public class Origin {
 		
 
 		while (in.hasNextLine()) {
-			stuff.add(in.nextLine());
+			stuff.add(in.nextLine())
 			
 		}
 		
