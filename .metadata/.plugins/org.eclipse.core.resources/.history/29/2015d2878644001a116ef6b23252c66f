@@ -18,7 +18,6 @@ public class Origin {
 			System.out.println(names.remove());
 		}
 		
-		System.out.println(names.remove());
 	
 		
 		

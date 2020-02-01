@@ -13,13 +13,7 @@ public class Origin {
 		names.add("Joe");
 		names.add("Caleb");
 		names.add("Sally");
-		
-		for(int i = 0; i <= names.size(); i++) {
-			System.out.println(names.remove());
-		}
-		
 		System.out.println(names.remove());
-	
 		
 		
 		
