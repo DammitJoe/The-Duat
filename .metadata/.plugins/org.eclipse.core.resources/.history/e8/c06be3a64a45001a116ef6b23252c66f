@@ -17,9 +17,9 @@ public class Origin {
 		
 		Iterator<String> cycle = names.iterator();
 		
-		for(String s: names ) {
-			System.out.println(s);
-		}
+		System.out.println(cycle.next());
+	
+		
 		
 		
 		

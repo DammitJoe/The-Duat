@@ -16,10 +16,10 @@ public class Origin {
 		names.push("Sally");
 		
 		Iterator<String> cycle = names.iterator();
-		
-		for(String s: names ) {
-			System.out.println(s);
+		while(cycle.hasNext()){
+			System.out.println(cycle.next());
 		}
+		
 		
 		
 		
