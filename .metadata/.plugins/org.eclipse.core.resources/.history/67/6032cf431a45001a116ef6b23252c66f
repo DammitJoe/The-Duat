@@ -10,9 +10,9 @@ public class Origin {
 	public static void main(String[] args) {
 		
 		LinkedList<String> names = new LinkedList<String>();
-		names.push("Joe");
-		names.push("Caleb");
-		names.push("Sally");
+		names.add("Joe");
+		names.add("Caleb");
+		names.add("Sally");
 		
 		for(int i = 0; i <= names.size(); i++) {
 			System.out.println(names.remove());
