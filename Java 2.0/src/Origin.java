@@ -8,22 +8,27 @@ import java.util.Scanner;
 
 public class Origin {
 
-	public static void main(String[] args) {
+	
+public static void main(String[] args) {
 		
-		LinkedList<String> names = new LinkedList<String>();
-		names.push("Joe");
-		names.push("Caleb");
-		names.push("Sally");
 		
-		Iterator<String> cycle = names.iterator();
+	int[][] maze = {
+			{2, 5, 4, 3},
+			{5, 89, 65, 5, 7},
+			{456, 24, 8, 5}
+				
+		};
 		
-		for(String s: names ) {
-			System.out.println(s);
+	
+			for(int i = 0; i < maze.length; i++) {
+			for(int j = 0; j < maze[i].length; j++) {
+				System.out.print(maze[i][j] + ", ");
+			}
+			System.out.println();
 		}
 		
 		
-		
-		
+
 		
 		
 		

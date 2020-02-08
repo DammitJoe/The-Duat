@@ -1524,3 +1524,15 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/First Project
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
 !SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2020-01-23 11:57:49.594
 !MESSAGE Cannot determine URI for '/First Project (Lerarning)/src/Users.java'.
+
+!ENTRY org.eclipse.help.base 2 0 2020-02-03 18:01:53.785
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.1.0.v201903222120 [436]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2020-02-03 18:01:53.871
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.1.0.v201903222120 [449]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2020-02-03 18:01:53.876
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201903222120 [452]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2020-02-03 18:01:53.881
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.2.0.v201903222120 [439]'. The index should be rebuilt with Lucene 8.0.0
